@@ -1,0 +1,21 @@
+# Navigate to your project directory
+cd path/to/your/project
+
+configure your Git with your GitHub credentials using the following commands in your terminal:
+git config --global user.name "Your Name" 
+git config --global user.email "your.email@example.com" 
+# Initialize Git
+git init
+
+# Add GitHub repository as remote
+git remote add origin https://github.com/your-username/your-repository.git
+
+
+# Add files to staging
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Push to GitHub
+git push -u origin main
